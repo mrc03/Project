@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="signup">Create An Account ? Signup</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="Signup">Signup</string>
+    <string name="places">Location:</string>
+    <string name="gases">Gas:</string>
+    <string name="fetch">Fetch</string>
+    <string name="result">Result</string>
+    <string name="address">Address</string>
+    <string name="profession">Profession</string>
+    <string name="city">City</string>
+    <string name="time">Period</string>
+
+    <string-array name="cities">
+        <item>--Select--</item>
+        <item>Gwalior</item>
+        <item>Bhopal</item>
+        <item>Indore</item>
+    </string-array>
+
+    <string-array name="locations">
+        <item>--Select--</item>
+        <item>ABV-IIITM Campus</item>
+        <item>Hazira</item>
+        <item>Gole Ka Mandir</item>
+        <item>City Center</item>
+        <item>BADA</item>
+    </string-array>
+
+    <string-array name="gases">
+        <item>--Select--</item>
+        <item>Carbon Dioxide</item>
+        <item>Carbon Monoxide</item>
+        <item>Oxygen</item>
+        <item>Argon</item>
+        <item>Hydrogen</item>
+        <item>Methane</item>
+    </string-array>
+    <string-array name="time">
+        <item>--Select--</item>
+        <item>12AM-3AM</item>
+        <item>3AM-6AM</item>
+        <item>6AM-9AM</item>
+        <item>9AM - 12PM</item>
+        <item>12PM-3PM</item>
+        <item>3PM-6PM</item>
+        <item>6PM-9PM</item>
+        <item>9PM-12PM</item>
+    </string-array>
+
+</resources>

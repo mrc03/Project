@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#303F9F</item>
+        <item name="colorPrimaryDark">#303F9F</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="MatchSpinnerStyle" parent="android:style/Widget.ListView.DropDown">
+        <item name="android:divider">#123456</item>
+        <item name="android:dividerHeight">2dp</item>
+        <item name="android:background">#ffffff</item>
+    </style>
+
+    <style name="MatchSpinnerTheme" parent="AppTheme">
+        <item name="android:dropDownListViewStyle">@style/MatchSpinnerStyle</item>
+    </style>
+
+
+
+</resources>

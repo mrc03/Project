@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="24dp"
+            android:background="@drawable/shadow_rect"
+            android:foregroundGravity="center_horizontal"
+            android:src="@drawable/download"
+            tools:ignore="ContentDescription"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/city"
+                android:textColor="@color/common_google_signin_btn_text_dark"
+                android:textColorHighlight="@color/colorAccent"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/spinner_cities"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorPrimary"
+                android:theme="@style/MatchSpinnerTheme"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/places"
+                android:textColor="@color/common_google_signin_btn_text_dark"
+                android:textColorHighlight="@color/colorAccent"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/spinner_locations"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorPrimary"
+                android:theme="@style/MatchSpinnerTheme"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/gases"
+                android:textColor="@color/common_google_signin_btn_text_dark"
+                android:textColorHighlight="@color/colorAccent"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/spinner_gases"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorPrimary"
+                android:theme="@style/MatchSpinnerTheme"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/time"
+                android:textColor="@color/common_google_signin_btn_text_dark"
+                android:textColorHighlight="@color/colorAccent"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/spinner_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorPrimary"
+                android:theme="@style/MatchSpinnerTheme"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="onClick"
+                android:src="@drawable/date"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/result_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+            android:gravity="center"
+            android:hint="@string/result"
+            android:textColor="#00dd00"
+            android:textColorHint="#757575"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/second_fetch_button"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_margin="24dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/fetch"
+            android:textColor="#ffffff"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</ScrollView>
+
+
